@@ -14,6 +14,12 @@ Currently only available for screens that use 1360x768 resolution.
 Requires game to be windowed and maximized.
 
 
+## How to setup Python 3 for these scripts
+
+
+-Run "pip install pyautogui" and "pip install tkinter" without quotes in some kind of terminal (Command Prompt works). This will install the necessary dependencies needed to run my scripts.
+
+
 
 ### TO DO:
 
