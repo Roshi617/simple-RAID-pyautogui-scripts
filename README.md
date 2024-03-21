@@ -7,11 +7,20 @@ Can be used for Campaign battles or Dungeons.
 
 
 
-Currently only available for screens that use 1360x768 resolution.
+Currently only available for screens that use 1360x768 and 1920x1080 resolution.
 
 
 
-Requires game to be windowed and maximized.
+Requires game to be windowed and maximized. Xubuntu scripts account for the taskbar at the top of the screen. Old scripts account for the Windows taskbar at the bottom of the screen.
+
+
+
+1920x1080 scripts require you to run them on the champions selection screen.
+
+
+
+Use Ctrl+Z to stop the script.
+
 
 
 ## How to setup Python 3 for these scripts
@@ -21,16 +30,4 @@ Requires game to be windowed and maximized.
 
 
 
-### TO DO:
-
-
-
--Create 1920x1080 resolution scripts
-
-
-
--Allow input for the number of times to battle
-
-
-
--Allow script to be shut off with a keybind
+On Linux, you need to also install tkinter. Run "sudo apt-get install python3-tk python3-dev" to do this, without quotes. I use Xubuntu, cannot help with Arch commands.
