@@ -26,7 +26,7 @@ Use Ctrl+Z to stop the script.
 ## How to setup Python 3 for these scripts
 
 
--Run "pip install pyautogui" without quotes in some kind of terminal (Command Prompt works). This will install the necessary dependencies needed to run my scripts.
+Run "pip install pyautogui" without quotes in some kind of terminal (Command Prompt works). This will install the necessary dependencies needed to run my scripts.
 
 
 
