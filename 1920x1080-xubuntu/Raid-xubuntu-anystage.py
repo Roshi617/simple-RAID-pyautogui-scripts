@@ -10,14 +10,15 @@ from tkinter import messagebox
 root = tkinter.Tk()
 root.withdraw()
 
-# emergency stop the script when you move the mouse to the upper-left of the screen 
-pyautogui.FAILSAFE = True
+# emergency stop the script when you move the mouse to the upper-left of the screen
+# (doesn't work on linux for whatever reason???)
+#pyautogui.FAILSAFE = True
 
 # configurations and type conversions
-lengthOfBattle = input("How long will the legnth of the battle be? NOTE: This includes the loading screen. ")
+lengthOfBattle = input("How long will the length of the battle be? NOTE: This includes the loading screen. ")
 converted_lengthOfBattle = int(lengthOfBattle)
 
-timesToRepeat = input("How many times to repeat battle? ")
+timesToRepeat = input("How many times to repeat the battle? ")
 converted_timesToRepeat = int(timesToRepeat)
 
 resToCheck = pyautogui.Size(1920, 1080)
